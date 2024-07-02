@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#banner {
+    background-color: white;
+    display: flex;
+    line-height: 40px; /* 调整行高，使文字垂直居中 */
+    height: 40px; /* 保证<a>标签的高度 */
+    padding: 20px 1px; /* 设置内边距，增加可点击区域 */
+    font-size: 17px;
+}
+
+
+#Doodle{
+   padding-left: 10px;
+   padding-right: 10px;
+   font-weight: 650;
+   font-size: 28px;
+}
+
+#banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#bannerImg{
+    width: 30px; /* 确保图片宽度填满容器 */
+    height: 35px; /* 确保图片高度填满容器 */
+    margin-left: 50px;
+    object-fit: contain; /* 保持图片纵横比并限制拉伸 */
+    padding: 0;
+}
+
+#banner ul li {
+    position: relative; /* 确保子级 ul 以 li 为参考进行绝对定位 */
+    text-align: center;
+    padding-left: 10px;
+}
+
+#banner ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+#banner ul li a:hover {
+    color: royalblue;
+}
+
+#banner ul li ul {
+    display: none;
+    position: absolute; /* 绝对定位 */
+    top: 100%; /* 确保 ul 显示在父级 li 下方 */
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#banner .dropdown-content a {
+    color: gray;
+    padding-left: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#banner .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    font-size: 19px;
+    color: gray;
+}
+
+#banner #lgBtn{
+    color: rgb(49, 135, 108);
+    background-color: transparent; /* 设置背景为透明 */
+    border: none; /* 移除边框 */
+    font-size: 17px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: auto;
+    width: 80px;
+    height: auto;
+}
+
+#banner #lgBtn:hover{
+    color: rgb(44, 119, 95);
+}
+
+#banner #SignBtn{
+    border-radius: 15px; /* 设置圆角半径为 5px */
+    width: 80px;
+    height: auto;
+    background-color: rgb(49, 135, 108);
+    border: none;
+    color: white;
+    margin-right: 25px;
+}
+
+#banner #SignBtn:hover{
+    background-color: #b3c6bf
+}
+
+#banner #createBtn{
+    border-radius: 15px; /* 设置圆角半径为 5px */
+    width: 180px;
+    height: auto;
+    background-color: #eef8ff;
+    margin-right: 50px;
+    border:3px solid #80a9cc;
+    color: #2d4eb8;
+}
+
+#banner #createBtn:hover{
+    background-color: white;
+}
