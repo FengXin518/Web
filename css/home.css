@@ -1,0 +1,46 @@
+#content{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#content img{
+    width: 50%;
+    height: auto;
+}
+
+#content #left{
+    padding: 80px;
+    padding-left:120px ;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#content .text1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#content #text{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 460px; /* 设置 label 的最大宽度 */
+    word-wrap: break-word; /* 当单词过长时，强制换行 */
+}
+
+#content button{
+    width: 60%;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: #365c4b;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#content button:hover{
+    background-color: #b3c6bf;
+    color: black;
+}

@@ -9,6 +9,7 @@ body {
     height: 40px; /* 保证<a>标签的高度 */
     padding: 20px 1px; /* 设置内边距，增加可点击区域 */
     font-size: 17px;
+    user-select: none;
 }
 
 
@@ -63,6 +64,10 @@ body {
     z-index: 1;
 }
 
+#banner ul li ul li{
+    padding: 0;
+}
+
 #banner .dropdown-content a {
     color: gray;
     padding-left: 12px;
@@ -90,7 +95,7 @@ body {
 }
 
 #banner #lgBtn:hover{
-    color: rgb(44, 119, 95);
+    color: rgb(26, 70, 56);
 }
 
 #banner #SignBtn{
@@ -119,4 +124,57 @@ body {
 
 #banner #createBtn:hover{
     background-color: white;
+}
+
+#banner #lgedBtn{
+    color: rgb(49, 135, 108);
+    background-color: transparent; /* 设置背景为透明 */
+    border:2px gray solid; 
+    font-size: 17px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: auto;
+    width: 35px;
+    height: auto;
+    overflow: hidden; /* 溢出内容隐藏 */
+    border-radius: 50%;
+}
+
+#banner #content{
+    display: none;
+    position: absolute; /* 绝对定位 */
+    top: 100%; /* 确保 ul 显示在父级 li 下方 */
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#banner #content li{
+    padding: 0;
+    margin: 0;
+    margin-left: 5px;
+}
+#banner #content button{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+#banner #content a{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 0;
+}
+
+
+#banner #content button:hover{
+    color: #2d4eb8;
 }
