@@ -3,7 +3,7 @@
     ##### you MUST update those variables
 
     $HOST     = 'localhost';
-    $DATABASE = 'doodle';
+    $DATABASE = 'Web';
     $USER     = 'root';
     $PASSWORD = 'xing1211114';
 

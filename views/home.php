@@ -1,7 +1,5 @@
 <?php
     include('../include/opening.php');
-    $moviedbFilePath = '../moviedb/';
-    $directories = glob($moviedbFilePath . '*', GLOB_ONLYDIR);
 ?> 
 <!-- To complete -->
 <!DOCTYPE html>
@@ -15,7 +13,7 @@
                 <label class="text1">scheduling</label>
                 <label class="text1">made easy</label>
                 <label id="text">Doodle is the fastest and easiest way to schedule anything — from meetings to the next great collaboration. </label>
-                <button>Create a Doodle</button>
+                <a href="../views/create_view.php"><button>Create a Doodle</button></a>
             </div>
             <img src="../src/images/Group.png"/>
         </div>

@@ -1,13 +1,11 @@
 <?php
     include('../include/opening.php');
-    $moviedbFilePath = '../moviedb/';
-    $directories = glob($moviedbFilePath . '*', GLOB_ONLYDIR);
 ?> 
 <!-- To complete -->
 <!DOCTYPE html>
 <html>
     <body style="background-color:#e8efee;">
-        <link href="../css/welcome.css" type="text/css" rel="stylesheet">
+        <link href="../css/create.css" type="text/css" rel="stylesheet">
 
         <div id="content-1">
             <label>Select your Doodle</label>

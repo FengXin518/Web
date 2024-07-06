@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f8f8fa;
+}
+
+#content-1{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#content-1 a{
+    text-decoration:none;
+    color: black;
+}
+
+#content-1 img{
+    width: 25px;
+    height: 20px;
+}
+
+#content-2{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 2px #e4e4f7 solid;
+    margin-bottom: 20px;
+}
+
+#content-2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#content-2 #title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+#content-2 .passwordContainer{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: 40px;
+}
+
+#content-2 form{
+    width: 80%;
+    height: auto;
+}
+
+#content-2 form input{
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+}
+
+
+#content-2 form div{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#content-2 .passwordContainer {
+    width: 100%;
+}
+
+#content-2 .passwordContainer input{
+    padding-right: 40px; /* 给输入框右侧留出空间放置图标 */
+    box-sizing: border-box;
+    height: 40px;
+}
+
+
+#content-2 .passwordContainer #togglePassword img {
+    width: 20px;
+    height: 20px;
+}
+
+#content-2 .passwordContainer #togglePassword{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#content-2 form #submit{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #355b4a;
+    font-size: 20px;
+}
+
+#content-2 form #submit:hover{
+    color: black;
+    background-color: #b4c6c0;
+}
